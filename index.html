@@ -1,4 +1,106 @@
 <!DOCTYPE html>
-<html>
-    
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lead Generation Form</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="header">
+    <div class="logo">
+        <img src="logo.png" alt="Logo">
+    </div>
+
+    <nav>
+        <ul>
+            <li><button class="call-button">Home</button></li>
+            <li><button class="call-button">Our Package</button></li>
+            <li><button class="call-button">Call Us</button></li>
+            <!-- <li><a href="#">Home</a></li>
+            <li><a href="#">Our Package</a></li>
+            <li><a href="#">Call Us</a></li> -->
+        </ul>
+    </nav>
+</header>
+<div class="container">
+    <h1 class="title">TEMPAT TERINDAH DI INDONESIA YANG WAJIB ANDA KETAHUI</h1>
+    <h3 class="subtitle">Luangkan waktumu 5 menit untuk membacanya</h3>
+
+    <div class="content">
+        <div class="left">
+            <img src="image.jpg" class="image" alt="Image"> <!-- Tambahkan kelas "image" di sini -->
+            <p class="testimonial">"Liburanku jadi menyenangkan bersama Travel Agentku."</p>
+            
+            <div class="content">
+                <table class="testimonial-table">
+                    <tr>
+                        <td rowspan="2" class="left">
+                            <img src="foto_profil.jpg" class="profil-photo" alt="Foto Profil">
+                        </td>
+                        <td class="testimonial-author">Sarah Nurbaya</td>
+                    </tr>
+                    <tr>
+                        <td class="author-role">Content Creator</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <div class="right">
+
+            <h3 for="name"><strong>Contact Us</strong></h3>
+            <p class="sales-text">Sales akan menghubungi anda 1x24 jam setelah data kami terima</p>
+            
+            <form id="leadForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="First Name Last Name" required>
+                
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Email Aktif" required>
+                
+                <label for="interest">What are your interests? </label>
+                <input type="text" id="interest" name="interest" placeholder="Apa yang kamu sukai?">
+                
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="our-package">
+    <h2>Our Packages</h2>
+</div>
+
+<div class="package-table">
+    <table>
+        <tr>
+            <th>Bali</th>
+            <th>Bandung</th>
+            <th>Japan</th>
+        </tr>
+        <tr>
+            <td>"Bali adalah tempat terbaik yang pernah ada."</td>
+            <td>"Bandung selalu punya tempat tak terlupakan."</td>
+            <td>Jika aku diberi 1 pilihan, maka jepang adalah jawabannya</td>
+        </tr>
+        <tr>
+            <th>malaysia</th>
+            <th>Singapore</th>
+            <th>Surabaya</th>
+        </tr>
+        <tr>
+            <td>"Negara tetangga yang sangat dekat."</td>
+            <td>"Negara Sekecil itu, namun bisa menjadi negara maju."</td>
+            <td>Surabaya menyimpan warisan leluhur, sebagai salah satu kota terbesar setelah jakarta</td>
+        </tr>
+    </table>
+
+</div>
+<div class="header">
+    <h1> Terima Kasih</h1>
+</div>
+<script src="js/script.js"></script>
+</body>
 </html>

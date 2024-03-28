@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo img {
+    max-width: 60px; /* Menentukan lebar maksimum gambar */
+    height: auto; /* Mengatur tinggi gambar agar proporsional */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+.header {
+    max-width: 900px;
+    margin: 0px auto;
+    padding-bottom: 10px;
+    background-color: #d9d7d7;
+
+}
+.container {
+    max-width: 900px;
+    margin: 5px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.content {
+    display: flex;
+}
+
+.left {
+    flex: 2; /*Mengubah flex dari 1 menjadi 2 untuk membuat bagian kiri lebih lebar */
+    margin-right: 20px;
+}
+
+.right {
+    flex: 1;
+    background-color: #f0f0f0; /* Warna abu-abu muda */
+    flex: 1; /* Mengatur lebar sidebar agar sesuai dengan bagian kanan */
+    padding: 20px; /* Mengubah flex dari 2 menjadi 1 untuk membuat bagian kanan lebih sempit */
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.sales-text {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 10px;
+}
+.image {
+    width: 600px; /* Lebar gambar 600px */
+    height: 450px; /* Tinggi gambar 300px */
+    object-fit: cover; /* Memotong dan menyesuaikan gambar untuk memenuhi ukuran yang ditentukan */
+}
+
+.testimonial {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.testimonial-table {
+    border-collapse: collapse; /* Menggabungkan border antar sel */
+    width: 50%; Lebar tabel */
+    margin: 0 auto;
+}
+
+.testimonial-table td {
+    border: 1px solid transparent; /* Batas sel */
+    padding: 10px; /* Padding di dalam sel */
+}
+
+
+.profil-photo {
+    border-radius: 50%;
+    width: 70px; /* Sesuaikan ukuran foto profil */
+    height: 70px; /* Sesuaikan ukuran foto profil */
+    margin-left: 0px; /* Jarak antara foto dan teks */
+}
+
+.testimonial-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    margin-top: 0; /* Menghilangkan margin atas */
+    margin-bottom: 5px; /* Menambahkan sedikit margin bawah */
+}
+
+.author-role {
+    margin-top: 0; /* Menghilangkan margin atas */
+    font-style: italic;
+}
+
+.title {
+    text-align: center; /* Mengatur teks menjadi berada di tengah */
+    width: 600px; Menentukan lebar maksimum untuk teks H1
+    color: #000000; 
+    margin: 0 auto;
+}
+
+
+.subtitle {
+    text-align: center; /* Mengatur teks menjadi berada di tengah */
+    color: #a3aeae;
+    padding-bottom: 40px 
+}
+
+.call-button {
+    background-color: #383b39; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    padding: 10px 20px; /* Padding tombol */
+    border: none; /* Menghilangkan border tombol */
+    text-align: center; /* Posisi teks di tengah tombol */
+    text-decoration: none; /* Menghilangkan dekorasi teks */
+    display: inline-block; /* Menampilkan tombol sebagai inline block */
+    font-size: 16px; /* Ukuran teks tombol */
+    margin: 4px 2px; /* Margin tombol */
+    cursor: pointer; /* Mengubah kursor saat diarahkan ke tombol */
+}
+
+
+
+
+
+
+
+
+.our-package {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.package-table {
+    margin-top: 20px;
+    background-color: #fff;
+    max-width: 900px;
+    margin: 5px auto;
+}
+
+.package-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.package-table th, .package-table td {
+    border: 1px solid transparent;
+    padding: 8px;
+    text-align: left; /* Mengatur isi teks menjadi rata kiri */
+    width: 33.33%;
+}
+
+.package-table th {
+    text-align: center; /* Mengatur teks header tabel menjadi rata tengah */
+}
+
